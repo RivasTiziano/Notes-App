@@ -22,7 +22,7 @@ export default function App({notas}){
 
     }else{
       let valor = "";
-      cheked ? valor = "importante" : valor = false;
+      cheked ? valor = "importante." : valor = false;
 
       const noteToAdd = {
         day: notes.length + 1,
